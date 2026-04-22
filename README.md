@@ -28,8 +28,11 @@ Beachten Sie, dass das Programm sowohl für positive, als auch negative Zahlen f
 Stellen Sie sicher, dass nach der Ausgabe eine neue Zeile begonnen wird.
 
 z.B.: 
+
 0 1 2 3 4 5 6 7 8 9 10 11 12 13
+
 oder
+
 0 -1 -2 -3 -4 -5 -6 -7
 
 ## program02
@@ -40,33 +43,46 @@ Es sollen so lange Würfelergebnisse (1 - 6) **dice** eingegeben werden, bis ein
 Danach soll das Programm beendet und die Anzahl der gültigen Würfe ausgegeben werden.
 
 z.B.:
+
 3
+
 6
+
 1
+
 4
+
 4
+
 2
+
 8
+
 Du hast 7 Mal gültig gewürfelt.
 
 
 ## program03
 
-Erstellen Sie ein Programm, die mit Hilfe einer Funktion einen Temperaturwert von Grad Celsius in Grad Fahrenheit umrechnet.
+Erstellen Sie ein Programm, das mit Hilfe einer Funktion einen Temperaturwert von Grad Celsius in Grad Fahrenheit umrechnet.
 Das Programm soll die Temperatur als Fließkommazahl **temp_celsius** einlesen und die Funktion **celsius2fahrenheit** aufrufen, die den entsprechenden Wert in Grad Fahrenheit zurückliefert. 
 
 z.B.: 
+
 Temperatur in Grad Celsius: 24.5
+
 Temperatur in Grad Fahrenheit: 76.1
 
 
 ## program04
 
-Erstellen Sie ein Programm, das die Längen von 2 Katheten **leg_a** und **leg_b** eines rechtwinkeligen Dreiecks als Fleißkommazahl einliest und mit Hilfe einer Funktion die Hypotenuse des zugehörigen rechtwinkeligen Dreiecks berechnet.
+Erstellen Sie ein Programm, das die Längen von 2 Katheten **leg_a** und **leg_b** eines rechtwinkeligen Dreiecks als Fleißkommazahl einliest und mit Hilfe einer Funktion **hypotenuse** die Hypotenuse des zugehörigen rechtwinkeligen Dreiecks berechnet.
 
 z.B.:
+
 Länge der Kathete a: 12.5
+
 Länge der Kathete b: 7.3
+
 Länge der Hypotenuse: 9.55
 
 
