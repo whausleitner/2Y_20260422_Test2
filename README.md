@@ -1,6 +1,6 @@
 # C-Programmierung - Test 2
 
-Die folgenden Aufgaben überprüfen ihre Kenntnisse im Bereich **Schleifen** und **Funktionen**. sowie Ihre Kenntnisse über grundlegende Rechenoperationen, Verzweigungen ('if') und Bibliotheksfunktionen `scanf` und `printf`.
+Die folgenden Aufgaben überprüfen ihre Kenntnisse im Bereich **Schleifen** und **Funktionen**. sowie Ihre Kenntnisse über grundlegende Rechenoperationen, Verzweigungen (`if`) und Bibliotheksfunktionen `scanf` und `printf`.
 
 Jede Aufgabe befindet sich in einem eigenen Verzeichnis.  
 Alle abgegebenen Dateien müssen sich in den vorgegebenen Verzeichnissen befinden.
