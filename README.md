@@ -1,6 +1,6 @@
 # Erster Test in C 
 
-Die folgenden Aufgaben überprüfen ihre Kenntnisse im Bereich. **Deklaration** und **Initialisierung** von Variablen. Sowie Ihre Kenntnis von grundlegenden Rechenoperationen, sowie über die Bibliotheksfunktionen `scanf` und `printf`.
+Die folgenden Aufgaben überprüfen ihre Kenntnisse im Bereich **Schleifen** und **Funktionen**. sowie Ihre Kenntnisse über grundlegende Rechenoperationen, Verzweigungen ('if') und Bibliotheksfunktionen `scanf` und `printf`.
 
 Jede Aufgabe befindet sich in einem eigenen Verzeichnis.  
 Alle abgegebenen Dateien müssen sich in den vorgegebenen Verzeichnissen befinden.
@@ -9,7 +9,7 @@ ___WICHTIG!___ Als abgegeben gilt nur, was Sie commited __UND__ gepushed haben.
 
 ## Übersicht
 
-Für diesen Test müssen Sie mehrere Programme bearbeiten, ausführen und schließlich testen, die sich alle unter folgendem Pfad befinden:
+Für diesen Test müssen Sie mehrere Programme bearbeiten und ausführen, die sich alle im folgenden Pfad befinden:
 
 `src/programXX/main.c`
 
@@ -22,75 +22,51 @@ Das erste Programm finden Sie beispielsweise am folgenden Speicherort:
 
 ## program01
 
-Erstellen Sie im ersten Schritt ein Programm, welches nur einen einzelnen Output ausgibt:
-
-```
-Hello [Vorname] [Nachname].
-```
-
-Ersetzen Sie [Vorname] mit ihrem Vornamen und [Nachname] mit ihrem Nachnamen.
+Erstellen Sie ein Programm, das eine ganze Zahl **number** einliest und alle Zahlen, beginnend von 0 bis zur eingegebenen Zahl ausgibt.
+Beachten Sie, dass das Programm sowohl für positive, als auch negative Zahlen funktionieren soll.
 
 Stellen Sie sicher, dass nach der Ausgabe eine neue Zeile begonnen wird.
 
+z.B.: 
+0 1 2 3 4 5 6 7 8 9 10 11 12 13
+oder
+0 -1 -2 -3 -4 -5 -6 -7
+
 ## program02
 
-In diesem zweiten Programm erstellen Sie einen kleinen Taschenrechner.
+Im zweiten Programm erstellen Sie eine Folge von Augenzahlen beim Würfeln.
 
-Es sollen zwei Ganzzahlwerte eingelesen werden.
+Es sollen so lange Würfelergebnisse (1 - 6) **dice** eingegeben werden, bis eine ungültige Augenzahl eingegeben wird.
+Danach soll das Programm beendet und die Anzahl der gültigen Würfe ausgegeben werden.
 
-```
-Geben Sie die erste Zahl ein:
-```
+z.B.:
+3
+6
+1
+4
+4
+2
+8
+Du hast 7 Mal gültig gewürfelt.
 
-```
-Geben Sie die zweite Zahl ein:
-```
-
-Danach soll die Subtraktion (Minus) der beiden Zahlen berechnet und ausgegeben werden.
-
-```
-Die Subtraktion von [zahl1] - [zahl2] = [ergebnis]
-```
-
-Ersetzen Sie in der Ausgabe [zahl1] durch die erste eingegebene Zahl, [zahl2] durch die Zweite und [ergebnis] durch das Ergebnis der Subtraktion von zahl1 und zahl2.
-
-### Beispiel
-
-```
-Geben Sie die erste Zahl ein: 4
-Geben Sie die zweite Zahl ein: 5
-Die Subtraktion von 4 - 5 = -1
-```
 
 ## program03
 
-Erstellen Sie ein Programm, welches eine Fließkommazahl einliest und speichert.
+Erstellen Sie ein Programm, die mit Hilfe einer Funktion einen Temperaturwert von Grad Celsius in Grad Fahrenheit umrechnet.
+Das Programm soll die Temperatur als Fließkommazahl **temp_celsius** einlesen und die Funktion **celsius2fahrenheit** aufrufen, die den entsprechenden Wert in Grad Fahrenheit zurückliefert. 
 
-Danach soll die Fließkommazahl mit insgesamt 9 Stellen und 2 Stellen nach dem Komma ausgegeben werden.
+z.B.: 
+Temperatur in Grad Celsius: 24.5
+Temperatur in Grad Fahrenheit: 76.1
 
-### Beispiel
-
-```
-Bitte geben Sie eine Fließkommazahl ein: -4.4
-Die Zahl ist:     -4,40
-
-```
 
 ## program04
 
-Erstellen Sie ein Programm, welches einen Ganzzahlwert einliest und speichert.
+Erstellen Sie ein Programm, das die Längen von 2 Katheten **leg_a** und **leg_b** eines rechtwinkeligen Dreiecks als Fleißkommazahl einliest und mit Hilfe einer Funktion die Hypotenuse des zugehörigen rechtwinkeligen Dreiecks berechnet.
 
-Danach soll die Zahl in einer Breite von 10 Stellen ausgegeben werden.
+z.B.:
+Länge der Kathete a: 12.5
+Länge der Kathete b: 7.3
+Länge der Hypotenuse: 9.55
 
-* Einmal rechtsbündig.
-* Einmal linksbündig.
-* Und einmal mit führenden Nullen aufgefüllt.
 
-### Beispiel
-
-```
-Bitte geben Sie eine Ganzzahl ein: 10
-        10
-10        
-0000000010
-```
