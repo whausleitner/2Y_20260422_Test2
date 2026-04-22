@@ -1,4 +1,4 @@
-# Erster Test in C 
+# C-Programmierung - Test 2
 
 Die folgenden Aufgaben überprüfen ihre Kenntnisse im Bereich **Schleifen** und **Funktionen**. sowie Ihre Kenntnisse über grundlegende Rechenoperationen, Verzweigungen ('if') und Bibliotheksfunktionen `scanf` und `printf`.
 
