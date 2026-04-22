@@ -1,4 +1,4 @@
-/// \program
+/// \file
 /// \author
 /// \date
 
