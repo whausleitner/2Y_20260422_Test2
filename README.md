@@ -66,6 +66,11 @@ Du hast 7 Mal gültig gewürfelt.
 Erstellen Sie ein Programm, das mit Hilfe einer Funktion einen Temperaturwert von Grad Celsius in Grad Fahrenheit umrechnet.
 Das Programm soll die Temperatur als Fließkommazahl **temp_celsius** einlesen und die Funktion **celsius2fahrenheit** aufrufen, die den entsprechenden Wert in Grad Fahrenheit zurückliefert. 
 
+* Parameter
+  * 1 Fließkommazahl (Temperatur in Grad Celsius)
+* Rückgabewert
+  * 1 Fließkommazahl (Temperatur in Grad Fahrenheit)
+    
 z.B.: 
 
 Temperatur in Grad Celsius: 24.5
@@ -75,7 +80,12 @@ Temperatur in Grad Fahrenheit: 76.1
 
 ## program04
 
-Erstellen Sie ein Programm, das die Längen von 2 Katheten **leg_a** und **leg_b** eines rechtwinkeligen Dreiecks als Fleißkommazahl einliest und mit Hilfe einer Funktion **hypotenuse** die Hypotenuse des zugehörigen rechtwinkeligen Dreiecks berechnet.
+Erstellen Sie ein Programm, das die Längen von 2 Katheten **leg_a** und **leg_b** eines rechtwinkeligen Dreiecks als Fleißkommazahl einliest und mit Hilfe einer Funktion **compute_hypotenuse** die Hypotenuse des zugehörigen rechtwinkeligen Dreiecks berechnet.
+
+* Parameter
+  * 2 Fließkommazahlen (Längen der Katheten)
+* Rückgabewert
+  * 1 Fließkommazahl (Länge der Hypotenuse)
 
 z.B.:
 
